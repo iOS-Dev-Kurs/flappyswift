@@ -13,6 +13,8 @@
 		873BE2A61D06195B00A69FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873BE2A51D06195B00A69FF5 /* Assets.xcassets */; };
 		873BE2A91D06195B00A69FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873BE2A71D06195B00A69FF5 /* LaunchScreen.storyboard */; };
 		87AA11DC1D0B4D6E006C614F /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 87AA11DB1D0B4D6E006C614F /* bird.atlas */; };
+		C2B44A101E9F7A9300CD4B11 /* FlyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B44A0F1E9F7A9300CD4B11 /* FlyScene.swift */; };
+		C2B44A121E9F7B0800CD4B11 /* FlyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C2B44A111E9F7B0800CD4B11 /* FlyScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		873BE2A81D06195B00A69FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873BE2AA1D06195B00A69FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87AA11DB1D0B4D6E006C614F /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
+		C2B44A0F1E9F7A9300CD4B11 /* FlyScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlyScene.swift; path = ../FlyScene.swift; sourceTree = "<group>"; };
+		C2B44A111E9F7B0800CD4B11 /* FlyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FlyScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				873BE29A1D06195B00A69FF5 /* AppDelegate.swift */,
 				873BE2A21D06195B00A69FF5 /* Main.storyboard */,
+				C2B44A0F1E9F7A9300CD4B11 /* FlyScene.swift */,
+				C2B44A111E9F7B0800CD4B11 /* FlyScene.sks */,
 				873BE2A01D06195B00A69FF5 /* ViewController.swift */,
 				873BE2A51D06195B00A69FF5 /* Assets.xcassets */,
 				87AA11DB1D0B4D6E006C614F /* bird.atlas */,
@@ -137,6 +143,7 @@
 				873BE2A91D06195B00A69FF5 /* LaunchScreen.storyboard in Resources */,
 				873BE2A61D06195B00A69FF5 /* Assets.xcassets in Resources */,
 				87AA11DC1D0B4D6E006C614F /* bird.atlas in Resources */,
+				C2B44A121E9F7B0800CD4B11 /* FlyScene.sks in Resources */,
 				873BE2A41D06195B00A69FF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873BE2A11D06195B00A69FF5 /* ViewController.swift in Sources */,
+				C2B44A101E9F7A9300CD4B11 /* FlyScene.swift in Sources */,
 				873BE29B1D06195B00A69FF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
